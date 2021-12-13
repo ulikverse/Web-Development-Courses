@@ -1,0 +1,13 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	name = Yulii Shtel
+	email = 53697952+uuuuulik@users.noreply.github.com
+[http]
+	version = HTTP/2
+	postBuffer = 157286400
+[init]
+	defaultBranch = Omnifood
